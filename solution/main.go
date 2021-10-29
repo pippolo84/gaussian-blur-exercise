@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	input := flag.String("in", "lenna.jpg", "name of the input JPG file")
+	input := flag.String("in", "lenna.png", "name of the input PNG file")
 	output := flag.String("out", "blurred.png", "name of the output PNG file")
 	kernelSz := flag.Int("size", 13, "size of the Gaussian kernel")
 	sigma := flag.Float64("sigma", 2.5, "standard deviation")
